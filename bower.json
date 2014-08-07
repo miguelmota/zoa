@@ -1,0 +1,15 @@
+{
+  "name": "zoa",
+  "main": "zoa.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miguelmota/zoa",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "A tiny JavaScript framework to help you take over the world.",
+  "keywords": [
+    "dependency",
+    "injection"
+  ],
+  "license": "MIT"
+}
