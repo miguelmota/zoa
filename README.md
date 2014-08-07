@@ -70,10 +70,10 @@ function httpService() {
 
 zoa.injector.register('httpService', httpService);
 
-function controller(httpService, myUrl) {
+function controller(httpService) {
     return {
-        getRobots: function() {
-            httpService().get(myUrl);
+        getRobots: function(url) {
+            httpService().get(url);
         }
     };
 }
