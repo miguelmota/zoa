@@ -70,15 +70,17 @@ function httpService() {
 
 zoa.injector.register('httpService', httpService);
 
-var controller  = zoa.injector.resolve(function(httpService, myUrl) {
+function controller(httpService, myUrl) {
     return {
         getRobots: function() {
             httpService().get(myUrl);
         }
     };
-});
+}
 
-controller().getRobots('robots.json'); // Fetching robots.json
+var resolvedController= zoa.injector.resolve(controller);
+
+resolvedController().getRobots('robots.json'); // Fetching robots.json
 
 // another way
 var ctrl = zoa.injector.invoke(controller);

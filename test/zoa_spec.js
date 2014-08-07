@@ -135,15 +135,17 @@ describe('Zoa', function() {
 
         zoa.injector.register('httpService', httpService);
 
-        var controller  = zoa.injector.resolve(function(httpService) {
+        function controller(httpService) {
             return {
                 getRobots: function(myUrl) {
                     return httpService().get(myUrl);
                 }
             };
-        });
+        }
 
-        assert.equal(controller().getRobots('robots.json'), 'robots.json');
+        var resolvedController = zoa.injector.resolve(controller);
+
+        assert.equal(resolvedController().getRobots('robots.json'), 'robots.json');
 
         var ctrl = zoa.injector.invoke(controller);
 
