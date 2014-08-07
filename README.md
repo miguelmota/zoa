@@ -7,7 +7,7 @@
 ╚══════╝ ╚═════╝ ╚═╝  ╚═╝
 ```
 
-# Zoa
+# Zoa.js
 
 A tiny JavaScript library to help you take over the world (or simply get things done)
 
@@ -89,6 +89,12 @@ zoa.injector.get('httpService').get('weapons.json');
 ```
 
 Yep, zoa only has two features at the moment.
+
+# Test
+
+```bash
+npm test
+```
 
 # License
 
