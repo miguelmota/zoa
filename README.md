@@ -1,9 +1,11 @@
+```bash
 ███████╗ ██████╗  █████╗
 ╚══███╔╝██╔═══██╗██╔══██╗
   ███╔╝ ██║   ██║███████║
  ███╔╝  ██║   ██║██╔══██║
 ███████╗╚██████╔╝██║  ██║
 ╚══════╝ ╚═════╝ ╚═╝  ╚═╝
+```
 
 # Zoa
 
@@ -55,7 +57,7 @@ zod.off('*');
 zod.off(<event>, <function>)
 ```
 
-## Dependency injection
+## Dependency Injection
 
 ```javascript
 function httpService() {

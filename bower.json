@@ -6,10 +6,10 @@
   "authors": [
     "Miguel Mota <miguelmota2@gmail.com>"
   ],
-  "description": "A tiny JavaScript framework to help you take over the world.",
+  "description": "A tiny JavaScript library to help you take over the world.",
   "keywords": [
-    "dependency",
-    "injection"
+    "dependency injection",
+    "event emitter"
   ],
   "license": "MIT"
 }

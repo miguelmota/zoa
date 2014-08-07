@@ -1,0 +1,26 @@
+{
+  "name": "zoa",
+  "version": "0.0.1",
+  "description": "A tiny JavaScript library to help you take over the world.",
+  "main": "zoa.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine-node test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/zoa.git"
+  },
+  "keywords": [
+    "dependency injection",
+    "event emitter"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/zoa/issues"
+  },
+  "homepage": "https://github.com/miguelmota/zoa"
+}
