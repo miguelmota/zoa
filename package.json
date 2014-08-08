@@ -1,7 +1,7 @@
 {
   "name": "zoa",
-  "version": "0.0.1",
-  "description": "A tiny JavaScript library to help you take over the world.",
+  "version": "0.0.2",
+  "description": "A tiny JavaScript framework to help you write applications.",
   "main": "zoa.js",
   "directories": {
     "test": "test"
