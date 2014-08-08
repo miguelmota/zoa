@@ -160,10 +160,6 @@
 
         App.prototype.modules = {};
 
-        function Module() {
-
-        }
-
         return App;
     })();
 
