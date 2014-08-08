@@ -115,7 +115,7 @@ var robots = app.module('robots');
 robots.doWork('dishes'); // Working dishes.
 ```
 
-Yep, zoa only has two features at the moment.
+Yep, zoa only has three features at the moment.
 
 # Test
 
