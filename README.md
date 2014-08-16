@@ -15,6 +15,8 @@
 
 A tiny JavaScript framework to help you write applications.
 
+[http://zoa.io](http://zoa.io)
+
 # Install
 
 Available via [bower](http://bower.io/)
@@ -123,8 +125,18 @@ Yep, zoa only has three features at the moment.
 
 # Test
 
+Run specs with [jasmine](https://github.com/mhevery/jasmine-node)
+
 ```bash
 npm test
+```
+
+# Docs
+
+Generate documentation
+
+````bash
+grunt jsdoc
 ```
 
 # License

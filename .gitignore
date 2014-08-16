@@ -96,6 +96,7 @@ _test
 _archive
 uploads
 tmp
+puppet
 
 # Vim files to ignore #
 #######################
