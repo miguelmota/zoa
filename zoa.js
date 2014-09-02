@@ -1,7 +1,3 @@
-/**
- * @name Zoa module
- * @namespace Holds all functionality
- */
 (function(zoa) {
     'use strict';
 
@@ -9,8 +5,7 @@
 
     /**
      * @ignore
-     * @type {function}
-     * @name __clone
+     * @func __clone
      * @param {object} object - object to clone
      */
     function __clone(obj) {
@@ -24,12 +19,10 @@
     }
 
     /**
-     * @global
-     * @type {function}
-     * @name zoa.observable
+     * @func observable
      * @param {object} object - object to set as observable
-     * @returns observable object
-     * @description Adds event functionality to object.
+     * @return observable object
+     * @desc Adds event functionality to object.
      * @example
      * function Robot() {
      *  zoa.observable(this);
@@ -109,10 +102,8 @@
     })();
 
     /**
-     * @global
-     * @type {object}
-     * @name zoa.injector
-     * @description injector object that is responsible for register and holding dependencies.
+     * @func injector
+     * @desc injector object that is responsible for register and holding dependencies.
      * @example
      *
      * function httpService() {
@@ -194,12 +185,10 @@
     })();
 
     /**
-     * @global
-     * @type {function}
-     * @name zoa.app
+     * @func app
      * @param {string} - App name
-     * @returns New app instance.
-     * @description Create a new app instance.
+     * @return New app instance.
+     * @desc Create a new app instance.
      * @example
      * var robots = zoa.app('robots');
      */

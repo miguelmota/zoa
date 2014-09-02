@@ -17,7 +17,7 @@
     "footer"          : "",
     "copyright"       : "Copyright © 2014 Moogs, LLC.",
     "navType"         : "vertical",
-    "theme"           : "cosmo",
+    "theme"           : "oblivion",
     "linenums"        : true,
     "collapseSymbols" : false,
     "inverseNav"      : true
