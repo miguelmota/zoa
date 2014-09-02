@@ -190,7 +190,24 @@
      * @return New app instance.
      * @desc Create a new app instance.
      * @example
-     * var robots = zoa.app('robots');
+     *  function work(task) {
+     *     return 'Working ' + task + '.';
+     *  }
+     *
+     *  // does not instatiate dependency if set to false
+     *  app.injector.register('work', work, false);
+     *
+     *  app.module('robots', function(work) {
+     *     return {
+     *       doWork: function(task) {
+     *         return = work(task);
+     *       }
+     *     };
+     *  });
+     *
+     *  var robots = app.module('robots');
+     *
+     *  robots.doWork('dishes'); // Working dishes.
      */
     zoa.app = (function() {
         function App(name) {
