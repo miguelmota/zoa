@@ -17,7 +17,7 @@ A tiny JavaScript framework to help you write applications.
 
 # Documentation
 
-*[http://zoa.io](http://zoa.io)*
+**[http://zoa.io](http://zoa.io)**
 
 # Install
 
