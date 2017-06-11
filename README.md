@@ -1,3 +1,5 @@
+# (Deprecated)
+
 ```bash
  8888888888',8888'  ,o888888o.           .8.
         ,8',8888'. 8888     `88.        .888.
@@ -17,7 +19,7 @@ A tiny JavaScript framework to help you write applications.
 
 # Documentation
 
-**[http://zoa.io](http://zoa.io)**
+[https://lab.miguelmota.com/zoa](https://lab.miguelmota.com/zoa)
 
 # Install
 
